@@ -1,0 +1,15 @@
+ADAPTER_NAME=netvoxMqttBridgeAdapter
+DAEMON=/usr/bin/$ADAPTER_NAME
+PIDFILE=/var/run/$ADAPTER_NAME.pid
+
+#Variables needed to start the netvoxMqttBridgeAdapter
+DEVICENAME=multitech-adapter-device
+ACTIVE_KEY=anish9461
+SYSTEM_KEY=a6e581cf0be09acbb186f1f4b5b201
+SYSTEM_SECRET=A6E581CF0BC6ACDEDDCEE1FFFCF701
+# For testing purpose: PLATFORM_URL=https://platform.iotright.com
+PLATFORM_URL=http://localhost:9001
+# For testing purpose: MESSAGING_URL=platform.iotright.com:1883
+MESSAGING_URL=localhost:1773
+CONFIG_COLLECTION=feb2afd20be2d38ea8ace4a0bf6e
+LOG_LEVEL=info
